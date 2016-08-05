@@ -1,0 +1,12 @@
+[package]
+name = "safe_core_neon"
+version = "0.1.0"
+authors = ["MaidSafe devs"]
+license = "GPL-3.0"
+
+[lib]
+name = "safe_core_neon"
+crate-type = ["dylib"]
+
+[dependencies]
+neon = "0.1"

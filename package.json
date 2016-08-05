@@ -1,0 +1,14 @@
+{
+  "name": "safe_core_neon",
+  "version": "0.1.0",
+  "description": "Better integration with safe_core for NodeJS apps",
+  "main": "lib/index.js",
+  "author": "MaidSafe devs",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "neon-cli": "^0.1.7"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
