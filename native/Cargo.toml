@@ -9,4 +9,6 @@ name = "safe_core_neon"
 crate-type = ["dylib"]
 
 [dependencies]
-neon = "0.1"
+maidsafe_utilities = "~0.8.0"
+neon = "~0.1"
+safe_core = "~0.18.1"
